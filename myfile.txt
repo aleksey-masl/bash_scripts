@@ -1,4 +1,3 @@
-hello
-this
-is
-test
+This is start of the script
+now redirecting all output to another location
+This should go to the myfile.txt file

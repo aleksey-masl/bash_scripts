@@ -1,0 +1,2 @@
+and this should go to the myerror.txt file
+ls: cannot access 'dsfds': No such file or directory
