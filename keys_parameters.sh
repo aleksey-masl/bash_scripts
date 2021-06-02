@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# передать -a -b -c -- 5 10 15
 echo # без параметров будет пустая строка
 
 while [ -n "$1" ]; do
@@ -8,7 +8,7 @@ while [ -n "$1" ]; do
 	-a) echo "Found the -a option" ;;
 	-b) echo "Found the -b option" ;;
 	-c) echo "Found the -c option" ;;
-	--) shift 
+	--) shift # shift+brake отделит ключи от параметров
 	break ;;
 	*) echo "$1 is not an option" ;;
 	esac
